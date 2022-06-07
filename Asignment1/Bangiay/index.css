@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background-color: #DCDCDC;  
+}
+nav ul li a {
+    list-style: none;
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-family: Roboto, sans-serif;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    padding: 30px 35px;
+    text-align: center;
+    text-decoration: none;  
+}
+nav ul li :hover {
+    color:#DAA520;
+}
+.dangnhap {
+    margin: left 50px;
+}
+
+.dangnhap01 {
+    margin: left 500px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+header {
+    text-align: center;
+}
+header img{
+    border-radius: 20px;
+}
+h1 {
+    margin-left: 120px;
+    margin-top: 20px;
+    font-family: Roboto, sans-serif;
+}
+article img {
+    padding: 20px;
+    margin-left: 95px;
+    box-sizing: border-box;
+}
+.ten{
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: -1px;
+    font-family: Arial, sans-serif;
+}
+.gia{
+    color: red;
+    margin-left: 120px;
+    margin-top: -10px;
+}
+del{
+    color: rgb(97, 95, 95);
+}
+.sanpham{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.sanpham1{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.sanpham1 {
+    padding: 10px;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+.sanpham1:hover {
+    transform: scale(1.1);
+}
+footer {
+    clear: both;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: #ffffff;
+}
+
+footer div {
+    font-family: Arial, sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+}
+footer p{
+    padding: 8px 0;
+}
+img{
+    border-radius: 10px;
+}
+@media screen and (max-width:1024px) {
+    ul li a{
+        font-size: 14px !important;
+    }
+}

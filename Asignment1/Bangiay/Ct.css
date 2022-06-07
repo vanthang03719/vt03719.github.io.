@@ -1,0 +1,73 @@
+.sanpham{
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.hinhNho{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hinhLon{
+    width: 40%;
+}
+.chitiet{
+    width: 40%;
+}
+.sanpham img{
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+.sanpham1 :hover img{
+    color: orange;
+}
+.class2{
+    font-family: Roboto, sans-serif;
+
+}
+.class1{
+    margin-left: 50px;
+    font-family: Roboto,sans-serif;
+}
+.hinhnho{
+    margin-top: -20px;
+}
+.gia{
+    color: red;
+    font-size: x-large;
+}
+del{
+    color: rgb(125, 132, 139);
+    font-size: large;
+}
+.chitiet{
+   display: flex;
+   flex-direction: column;
+
+}
+.button button{
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #000;
+    background-color: #fed700;
+    line-height: 25px;
+
+}
+.sanpham img:hover{
+    transform: scale(1.08);
+    transition: 0.8s ease; 
+}
+.chitiet input{
+    width: 10%;
+}
+.sanpham .button .muaNgay{
+    background-color: red;
+}
